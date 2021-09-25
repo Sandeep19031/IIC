@@ -1,0 +1,46 @@
+.contact__us {
+	height: 100vh;
+	overflow-x: hidden;
+	background-color: var(--white-bgcolor);
+}
+.navbar__div {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+.navbar__center {
+	flex: 1;
+	text-align: center;
+}
+.navbar__left {
+	flex: 1;
+}
+.navbar__title {
+	color: var(--orange);
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar__right {
+	flex: 1;
+}
+.main__council__window {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 10px 30px 30px 30px;
+	margin: 0;
+}
+.iit__goa__logo {
+	width: 5vw;
+	margin-top: 0.7vw;
+	margin-left: 1.5vw;
+	margin-right: 0.8vw;
+}
+.iic__logo {
+	width: 10vw;
+	margin-top: 0.7vw;
+}
+@media only screen and (max-width: 720px) {
+	.iic__logo {
+		display: none;
+	}
+}

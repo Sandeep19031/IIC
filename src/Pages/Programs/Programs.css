@@ -1,0 +1,416 @@
+.Program{
+ 
+   width: 100vw;
+   height: 100vh;
+   
+}
+.program-text {
+    margin-top: max(-2.3vw,-9vh);
+    margin-right: 2vw;
+}
+.pre-incubation {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 3vw;
+    margin: 0px;
+
+    margin-left: 1vw;
+}
+
+.content_1{
+    display: flex;
+    padding-top: 7vh;
+}
+.accessible, .educational,  .practical {
+    width: 25vw;
+ 
+}
+.educational {
+    padding-left: 1vw;
+}
+.personalized{
+    width: 23vw;
+    margin-left: 1vw;
+}
+ .practical {
+    padding: 0 2.5vw;
+}
+.accessible{
+    padding: 0px 2vw;
+}
+
+#heading_text {
+    font-family: "Domine";
+    font-size: min(4vh,3vw);
+    margin:  10px 0px;
+}
+#content_text {
+    font-family: "Karla";
+    font-size: min(2.5vh, 3vw);
+}
+
+.card_content {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+}
+.card_1_block, .card_2_block, .card_3_block, .card_4_block{
+    width: 25vw;
+    height: 15vw;
+    margin: 0px 0.3%;
+}
+.card_1_shown, .card_2_shown, .card_3_shown, .card_4_shown{
+    width: 25vw;
+    height: 25vw;
+    min-height: 20vh;
+    margin: 0px 0.3%;
+}
+#info_card_title_shown{
+    font-family: "Domine-bold";
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: -1.8vw;
+}
+.info_card_content {
+    padding: 10px 5px;
+}
+.imgs {
+    margin-top: -1.5vw;
+}
+#info_card_content_text_1{
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: min(3vh,1vw);
+    margin: 0px;
+    
+}
+#info_card_content_text_2{
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: min(3vh,1.2vw);
+    margin: 0px;
+}
+#info_card_content_text_3{
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: min(3vh,1vw);
+    margin: 0px;
+}
+#info_card_content_text_4{
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: min(3vh,0.9vw);
+    margin: 0px;
+}
+.idea_funnel, .ignite, .aeIEP, .startuplabs{
+    width: 100%;
+    height: 100%;
+   
+    border-top-left-radius: 49px;
+    border-top-right-radius: 49px;  
+    text-align: center;
+}
+
+
+#info_card_title {
+    font-family: "Karla";
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.content_2 {
+    display: none;
+}
+.tab-card-content{
+    display: none;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+    width: 25px;
+}
+
+
+@media only screen and (max-width: 1580px ) {
+    .program-text {
+        margin-top: max(-4.5vw,-9vh);
+        margin-right: 1.5vw;
+        
+    }
+
+}
+@media only screen and (max-width: 1400px ) {
+    .program-text {
+        margin-top: max(-5.5vw,-9vh);
+        margin-right: 0.6vw;
+    }
+
+}
+@media only screen and (max-width: 1200px ) {
+    .program-text {
+        margin-top: max(-7.5vw,-9vh);
+        margin-right: -0.8vw;
+    }
+
+}
+@media only screen and (max-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+
+    .content_2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        height: 51vh;
+        overflow-y: scroll;
+    }
+    .content_1{
+        display: none;
+    }
+    .pre-incubation{
+        font-size: 5vw;
+        margin-top: -5vw;
+        transform: none !important
+    }
+    .accessible, .educational, .personalized, .practical {
+        width: 100vw;
+    }
+    #heading_text {
+        text-align: center  !important;
+        font-size: 4vw;
+    }
+    #content_text{
+        text-align: center  !important;
+        font-size: 3vw;
+    }
+    .card_content {
+        display: none
+    }
+    .tab-card-content{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+    }
+    .card_1_block, .card_2_block, .card_3_block, .card_4_block{
+        width: 50vw;
+        height: 35vw;
+    }
+    .card_1_block {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .card_2_block {
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+    .card_3_block {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .card_4_block {
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+
+    .card_1_shown{
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .card_2_shown {
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+    .card_3_shown {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+    .card_4_shown {
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+    .card_1_shown, .card_2_shown, .card_3_shown, .card_4_shown{
+        width: 50vw;
+        height: 70vw;
+        min-height: 20vh;
+    }
+    #info_card_title {
+        font-size: 4vw;
+    }
+    .imgs {
+        margin-top: -7vw;
+    }
+    #info_card_title_shown{
+        font-size: 4vw;
+        margin-top: -6vw;
+    }
+    #info_card_content_text_1{
+        font-size: min(3vh,2.4vw);
+        margin: 0px;
+    }
+    #info_card_content_text_2{
+        font-size: min(3vh,3vw);
+        margin: 0px;
+    }
+    #info_card_content_text_3{
+        font-size: min(3vh,2.5vw);
+        margin: 0px;
+    }
+    #info_card_content_text_4{
+        font-size: min(3vh,2.3vw);
+        margin: 0px;
+    }    
+    .iit-logo{
+        margin-top: -10vw !important;
+        width: 7vw !important;
+    }
+    .iic-logo{
+        margin-top: -10vw !important;
+        width: 12vw !important;
+    }
+    #form-link {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .content_2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        height: 51vh;
+        overflow-y: scroll;
+    }
+    .content_1{
+        display: none;
+    }
+    .iic-logo {
+        display: none;
+    }
+    .pre-incubation{
+        font-size: 5vw;
+        margin-top: -5vw;
+        transform: none !important;
+    }
+    .accessible, .educational, .personalized, .practical {
+        width: 100vw;
+    }
+    #heading_text {
+        text-align: center  !important;
+        font-size: 4vw;
+    }
+    #content_text{
+        text-align: center  !important;
+        font-size: 3vw;
+    }
+    .card_content {
+        display: none
+    }
+    .tab-card-content{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+    }
+    .card_1_block, .card_2_block, .card_3_block, .card_4_block{
+        width: 50vw;
+        height: 35vw;
+    }
+    
+    .card_1_shown, .card_2_shown, .card_3_shown, .card_4_shown{
+        width: 50vw;
+        height: 70vw;
+        min-height: 20vh;
+    }
+    #info_card_title_shown{
+        font-size: 4vw;
+        margin-top: -6vw;
+    }
+    #info_card_content_text_1{
+        font-size: min(3vh,2.3vw);
+        margin: 0px;
+    }
+    #info_card_content_text_2{
+        font-size: min(3vh,3vw);
+        margin: 0px;
+    }
+    #info_card_content_text_3{
+        font-size: min(3vh,2.5vw);
+        margin: 0px;
+    }
+    #info_card_content_text_4{
+        font-size: min(3vh,2.3vw);
+        margin: 0px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .tab-card-content{
+        display: none;
+    }
+    .program-text {
+        margin-top: -5.5vw;
+        margin-right: 0;
+    }
+    .pre-incubation{
+        font-size: 6vw;
+        margin-top: -4vw;
+    }
+    .mobile-card-content{
+        position: absolute;
+        bottom: 0px;
+        align-items: center;
+    }
+    #heading_text {
+        font-size: min(6vw,5vh);
+    }
+    #content_text{        
+        font-size: min(4vw, 5vh);
+    }
+    .card_1_block, .card_2_block, .card_3_block, .card_4_block{
+        width: 100vw;
+        height: min(55vw, 30vh);
+        margin: 0px;
+    }
+    #info_card_title{
+        
+        font-size: 5vw;
+        
+    }
+    .content_2{
+        height: 60vh;
+        overflow-y: scroll;
+    }
+    .card_1_shown, .card_2_shown, .card_3_shown, .card_4_shown{
+        width: 100vw;
+        height: auto  !important;
+        margin: 0px;
+    }
+    #info_card_title_shown{
+        font-size: 6vw;
+        margin-top: -4vw;
+    }
+    #info_card_content_text_1{
+        font-size: min(5vh,4vw);
+        margin: 0px;
+    }
+    #info_card_content_text_2{
+        font-size: min(6vh,5vw);
+        margin: 0px;
+    }
+    #info_card_content_text_3{
+        font-size: min(6vh,5vw);
+        margin: 0px;
+    }
+    #info_card_content_text_4{
+        font-size: min(5vh,4.5vw);
+        margin: 0px;
+    }
+    .info_card_content{
+        padding: 0px 25px;
+    }
+    .iit-logo{
+        width: 3rem !important;
+        margin-top: -2.5vw !important;
+    }
+    #form-link {
+        font-size: 16px;
+    }
+}

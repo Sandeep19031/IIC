@@ -1,0 +1,22 @@
+.cross{
+      align-self: flex-end  !important;
+      width: 2rem;
+      margin: 1rem;
+}
+
+.cross :hover{
+      cursor: pointer;
+}
+
+.content{
+      text-align: left !important;
+      margin: 2rem !important;
+}
+
+/* #MIC{
+      overflow-y: scroll;
+} */
+.yellow{
+      color: var(--orange);
+      font-weight: bold;
+}

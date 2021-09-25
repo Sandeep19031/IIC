@@ -1,0 +1,293 @@
+#outer492002 {
+	position: relative;
+	font-size: 16px;
+	background-color: #F5F3F4 !important;
+	color: #003049;
+
+}
+.loader {
+	display: flex;
+	position: absolute;
+	z-index: 1000;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	z-index: 1000;
+}
+
+.ldr {
+	height: 8vw;
+}
+.ldr img {
+	height: 100%;
+	width: auto;
+}
+
+.ig492002 {
+	font-size: 4.375em;
+	position: relative;
+	top: -5vw;
+	right: 50%;
+	transform: translateX(50%);
+}
+
+.ic492002 {
+	font-size: 4.0625em;
+	position: relative;
+	top: -4vw;
+	right: 50%;
+	transform: translateX(50%);
+}
+#iitlogo {
+	width: 6vw;
+	height: auto;
+	display: inline-block;
+	margin-top: 0.83vw;
+	margin-left: 1.5vw;
+	margin-right: 0.8vw;
+}
+
+
+#yellowStrip {
+	background-color: #ffd69a;
+	height: 4vw;
+	width: 19.79vw;
+	border-bottom-right-radius: 1.5vw;
+	position: relative;
+	top: 5vw;
+	z-index: 5;
+	font-size: 16px;
+}
+#yellowStrip p {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family: Domine;
+	font-size: 3.0625em;
+	color: #003049;
+}
+
+.text {
+	color: #003049;
+	font-family: Karla-SemiBold;
+	position: relative;
+	top: 7vw;
+	font-size: 1.875em;
+	padding-left: 1.25vw;
+	padding-right: 1.25vw;
+}
+
+@media only screen and (max-width: 500px) {
+	.text{
+		text-align: center;
+		padding: 0 10px !important;
+	}
+	#outer492002 {
+		font-size: 8px;
+		min-width: 375px;
+	}
+	#iitlogo {
+		width: 15vw;
+		position: relative;
+		top: 20px;
+
+		left: 20px;
+	}
+	#iiclogo {
+		width: 25vw;
+		position: relative;
+		top: 20px;
+
+		left: 30px;
+	}
+	.motives {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#yellowStrip {
+		width: 206px;
+		height: 40px;
+		font-size: 8px;
+		margin-bottom: 15px;
+	}
+	#otherthanLogo {
+		position: relative;
+		top: 89px;
+	}
+	.text {
+		padding: 4px;
+	}
+}
+
+#iitlogo img{
+    height: 100%;
+    width: 100%;
+}
+
+#iiclogo{
+    width: 13vw;
+    display: inline-block;
+    margin-top: 0.83vw;
+}
+
+#iiclogo img{
+    height: 100%;
+    width: 100%;
+}
+
+.heading492002{
+    color: #003049 ;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.motivesWrapper{
+    display: flex !important;
+    justify-content: space-between
+	 !important;
+    color: #003049;
+    position: relative;
+    top: 1vw;
+    width: 90vw;
+    flex-wrap: wrap;
+
+}
+
+.motivesOuter{
+	display: flex;
+	justify-content: center;
+}
+
+.motives{
+    width: 370px;
+}
+
+.motives h4{
+    font-family: Domine;
+    font-size: 3.125em;
+    font-weight: 600;
+    
+}
+.motives h5{
+    font-family: Karla;
+    font-size: 1.7em;
+}
+
+.motives1{
+    text-align: end;
+}
+.motives2{
+    text-align: center;
+}
+
+#yellowStrip{
+    background-color:#FFD69A;
+    height: 8vh;
+    width: 35vh;
+    border-bottom-right-radius: 1.5vw;
+    position: relative;
+    top: 5vw;
+    z-index: 5;
+    font-size: 16px;
+
+}
+#yellowStrip p{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Domine;
+  font-size: 5vh;
+  font-weight: bold;
+  color: #003049;
+  white-space: nowrap !important;
+}
+
+.text{
+    color: #003049;
+    font-family: Karla;
+    position: relative;
+    top: 7vw;
+    font-size: 1.875em;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
+}
+@media only screen and (min-width:500px) and (max-width:1245px){
+	
+    .motives{
+        text-align: center;
+        width: 100vw;
+    }
+	#outer492002{
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    #outer492002{
+        font-size: 8px;
+        min-width: 375px;
+    }
+    #iitlogo{
+        width: 15vw;
+        position: relative;
+        top: 20px;
+
+        left: 20px;
+    }
+    #iiclogo{
+        width:25vw;
+        position: relative;
+        top: 20px;
+
+        left: 30px;
+
+    }
+    .motives{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    #yellowStrip{
+        width: 206px;
+        height: 40px;
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+    #yellowStrip p{
+        font-size: 2.8em;
+    }
+    #otherthanLogo{
+        position: relative;
+        top:89px;
+    }
+    .text{
+        padding: 4px;
+    }
+}
+
+@media only screen and (min-width:1245px) and (max-width:1600px){
+
+	#outer492002{
+        font-size: 12px;
+    }
+	.ig492002{
+		top: -5vw;
+	}
+	.ic492002{
+		font-size: 3.5em;
+	}
+	.motivesWrapper{
+		width: 100vw;
+	}
+	
+}
+

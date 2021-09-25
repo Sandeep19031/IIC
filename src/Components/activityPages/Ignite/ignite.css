@@ -1,0 +1,20 @@
+/* .images{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+} */
+
+.cross{
+      float:right;
+      width: 2rem;
+      margin: 1rem;
+}
+
+.cross :hover{
+      cursor: pointer;
+}
+
+.content{
+      text-align: left !important;
+      margin: 2rem !important;
+}

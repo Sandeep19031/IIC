@@ -1,0 +1,205 @@
+.layout {
+	display: flex;
+	flex-direction: row;
+	z-index: -1;
+	justify-content: space-between;
+	width: 100%;
+	text-align: center;
+}
+
+.navbar__title {
+	color: var(--orange);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar__center {
+	text-align: center;
+}
+
+.updateContainer {
+	margin-top: 1rem;
+	right: 0;
+	width: 100%;
+	background-color: var(--light-orange);
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;
+	margin-left: 1.5rem;
+	min-height: 70vh;
+}
+.activity-container {
+	min-height: 100vh;
+}
+
+.updates {
+	display: flex;
+	justify-content: center;
+}
+.activity {
+	margin-top: 1rem;
+	padding-top: 2rem 0 2rem;
+	display: flex;
+}
+.activityIcons {
+	width: 55vw;
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	/* height: 100%; */
+	background-color: var(--light-blue);
+	margin-right: 1.5rem;
+	left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.individualUpdates {
+	background-color: var(--light-blue);
+	border-style: solid;
+	border-color: var(--dark-blue);
+	border-radius: 35px;
+	max-height: 52vh;
+	overflow: auto;
+	font-weight: bold;
+	font-family: 'Karla';
+	margin: 0 30px 30px 30px;
+	padding: 20px 0 0 0;
+}
+hr {
+	color: var(--dark-blue);
+	height: 3px !important;
+	opacity: 1;
+}
+hr:last-child {
+	display: none;
+}
+
+.yellow {
+	color: var(--orange);
+	font-weight: bold;
+}
+.individualComponents {
+	background-color: var(--opaque-blue);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
+	border-radius: 35px 35px 0 0;
+	display: flex;
+	max-height: 94vh;
+	overflow-x: hidden;
+}
+.images {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconButton {
+	background-color: var(--light-blue);
+	width: 40px;
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	left: 0;
+	height: 86vh;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.updateButton {
+	background-color: var(--light-orange);
+	width: 40px;
+	margin-top: 1rem;
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;
+	right: 0;
+	height: 85vh;
+	justify-content: center;
+	align-items: center;
+}
+.updateIcon {
+	background-color: var(--light-orange);
+	width: 40px;
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;
+	right: 0;
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	:root {
+		--flag: 1;
+	}
+	.notMobile {
+		display: none;
+	}
+	.updates {
+		display: flex;
+		height: 85vh;
+		justify-self: flex-end;
+		align-self: flex-end;
+	}
+	.updateContainer {
+		width: 100%;
+	}
+	.individualUpdates {
+		max-height: 55vh;
+	}
+	.activityIcons {
+		height: 85vh;
+		width: 100%;
+	}
+	.iconButton {
+		display: flex;
+	}
+	.heading {
+		margin-left: 0 !important;
+		padding-top: 0.75rem !important;
+	}
+	.updateButton {
+		display: flex;
+	}
+	.iicLogo {
+		display: none;
+	}
+	.iitGoaLogo {
+		width: 3rem !important;
+	}
+}
+.headings {
+	color: var(--orange);
+	text-align: center;
+	margin: 2rem 0 0 3rem;
+}
+.icon-headings {
+	color: var(--dark-blue);
+	font-weight: 500;
+}
+.iitGoaLogo {
+	width: 5vw;
+	margin-top: 0.7vw;
+	margin-left: 1.5vw;
+	margin-right: 0.8vw;
+}
+.iicLogo {
+	width: 10vw;
+	margin-top: 0.7vw;
+}
+.topNavDiv {
+	display: flex;
+	flex-direction: row;
+	padding-top: 0.5rem;
+	align-content: flex-start;
+}
+.heading {
+	flex: 1;
+	text-align: center;
+	padding-top: 0.5rem;
+	margin-left: 3.5rem;
+}
+.temp {
+	z-index: 101;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+.activityIcons {
+	padding-bottom: 0.5rem;
+}

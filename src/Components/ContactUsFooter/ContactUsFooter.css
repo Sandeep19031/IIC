@@ -1,0 +1,129 @@
+.contact__us__footer {
+  position: fixed;
+  display: flex;
+  align-items: space-between;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  background-color: var(--light-blue);
+  transition: all 0.5s ease-in-out;
+  border-radius: 30px;
+}
+.footer__closed {
+  bottom: -172px;
+}
+.footer__open {
+  bottom: -37px;
+}
+.footer__arrow__div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.arrow__img {
+  transform: scale(0.5);
+  cursor: pointer;
+}
+.contact__us_info__div {
+  display: flex;
+}
+
+.footer__copyright__div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.footer__copyright__text {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--orange);
+}
+.footer__icon {
+  width: 50px;
+  margin: 0px 10px;
+}
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 5px 35px;
+  line-height: 20px;
+}
+.right__column__text {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--dark-blue);
+  margin: 0px;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 30px;
+}
+.left__column__text {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--orange);
+  padding-left: 50px;
+}
+.left__column__text_1 {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--orange);
+}
+
+/* Mobile */
+
+.footer__info__div__mobile {
+  display: flex;
+  flex-direction: column;
+}
+.icons__div_mobile {
+  align-self: center;
+}
+.footer__icon_mobile {
+  width: 40px;
+  margin: 0px 10px;
+}
+.contact__us__mobile__text {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--orange);
+  margin: 0px;
+  align-self: center;
+}
+.contact__us__mobile__text_1 {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--orange);
+}
+.iit__goa__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 13px;
+  padding-left: 10px;
+}
+.right__column__text__mobile {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--dark-blue);
+  margin: 0px;
+}
+.footer__copyright__text__mobile {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--orange);
+}

@@ -1,0 +1,14 @@
+.cross{  
+      width: 2rem;
+      margin: 2rem;
+      float: right;
+      position: absolute;
+      cursor: pointer;
+}
+
+.content{
+      text-align: left !important;
+      margin: 2rem !important;
+}
+
+

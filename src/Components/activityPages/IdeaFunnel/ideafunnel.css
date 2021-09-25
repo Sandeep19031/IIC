@@ -1,0 +1,14 @@
+.content{
+      text-align: left !important;
+      margin: 2rem !important;
+}
+
+.cross{
+      float:right;
+      width: 2rem;
+      margin: 2rem;
+}
+
+.cross :hover{
+      cursor: pointer;
+}
